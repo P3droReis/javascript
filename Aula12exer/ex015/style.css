@@ -22,6 +22,10 @@ section {
     box-shadow: 2px 2px 3px black;
 }
 
+#res{
+    text-align: center;
+}
+
 footer {
     text-align: center;
     font-style: italic;
