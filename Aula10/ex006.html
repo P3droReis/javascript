@@ -22,14 +22,18 @@
     </div>
     <script>
         var a = window.document.getElementById('area')
-        a.addEventListener('click', clicar)
+        a.addEventListener('click', newText)
         a.addEventListener('mouseenter', entrar)
         a.addEventListener('mouseout', sair)
 
-        function clicar() {
+        /*function clicar() {
             a.innerText = 'Clicou!!!'
             a.style.background = 'gray'
+        }*/
+        function newText() {
+            a.innerHTML=`Novo texto`
         }
+
         function entrar() {
             a.style.background = 'blue'
         }
