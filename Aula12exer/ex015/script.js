@@ -42,8 +42,9 @@ function verificar() {
                 img.setAttribute('src', 'mulher-idosa.png')
             }
         }
-        res.innerHTML = `Detectamo ${genero} com ${idade} anos.`
-        res.appendChild(img)
-    }   
+         
+    }  
+    res.innerHTML = `Detectamo ${genero} com ${idade} anos. <br>`
+        res.appendChild(img) 
 
 }
